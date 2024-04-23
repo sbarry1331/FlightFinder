@@ -4,7 +4,7 @@ from datetime import datetime
 class FlightSearch:
 
     def __init__(self):
-        self.API_KEY = "DPjdHA2NFXRZ9UrhN4alaRimO27Cludm"
+        self.API_KEY = MY_API_KEY
         self.code_endpoint = "https://api.tequila.kiwi.com/locations/query"
         self.flight_endpoint = "https://api.tequila.kiwi.com/v2/search"
 

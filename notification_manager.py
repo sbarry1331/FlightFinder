@@ -2,7 +2,7 @@ import smtplib
 from data_manager import DataManager
 
 MY_EMAIL = "sbarry1331@gmail.com"
-PASSWORD = "klposkvzuddhgvse"
+PASSWORD = MY_PASSWORD
 GET_URL = "https://api.sheety.co/bb882804d345c5573d8f3b714bb1067e/flightDeals/names"
 class NotificationManager:
 
